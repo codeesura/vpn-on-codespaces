@@ -20,17 +20,6 @@ Before we start, ensure you have the following:
 - Access to GitHub Codespaces (requires a GitHub account with Codespaces enabled)
 - [Tailscale](https://tailscale.com) account
 
-## Step 1: Creating a GitHub Account
-
-If you don't have a GitHub account, you'll need to create one:
-
-1. Visit [GitHub](https://github.com).
-2. Click on **Sign up** in the top-right corner.
-3. Follow the prompts to create your account.
-4. Verify your email address.
-
-Once your account is created, you'll have access to all of GitHub's features, including Codespaces.
-
 ## Step 1: Forking the Repository
 
 To create a Tailscale VPN in a Codespace, you'll need to fork **this repository**:
