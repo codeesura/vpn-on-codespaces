@@ -70,7 +70,12 @@ After logging in and registering your machine, follow these steps to set your Co
 1. Go to the [Tailscale admin panel](https://login.tailscale.com/admin/machines).
 2. Navigate to the `Machines` section and find your Codespace instance.
 3. Click the three dots (•••) next to your Codespace instance and select `Edit route settings`.
+
+![Edit route settings](./images/edit-route-settings.png)
+
 4. In the route settings menu, enable the `Use as exit node` option.
+
+![Use exit node](./images/use-exit-node.png)
 
 ## Conclusion
 
