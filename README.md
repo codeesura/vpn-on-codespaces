@@ -35,7 +35,12 @@ Now that you have the repository forked, you can create a Codespace:
 1. Navigate to your forked repository on GitHub.
 2. Click on the **Code** button and select **Codespaces**.
 3. Click **Create codespace on main**.
-4. Wait for the Codespace environment to initialize. This may take a few minutes.
+
+![Creating a Codespace](./images/create-codespaces.png)
+
+5. Wait for the Codespace environment to initialize. This may take a few minutes.
+
+![Wait a Codespace](./images/load-codespaces.png)
 
 ## Step 3: Running the Setup Script
 
@@ -55,6 +60,8 @@ Once your Codespace is ready, you'll need to run the provided setup script to co
     ```
 
 4. The script will output a link. Follow the link to log in to your Tailscale account and register your machine.
+
+![Show Tailscale link](./images/shell.png)
 
 ## Step 4: Configuring Tailscale as an Exit Node
 
