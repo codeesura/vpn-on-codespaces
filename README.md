@@ -6,12 +6,11 @@ By the end of this guide, you'll have a fully functional VPN running on your Git
 
 ## Table of Contents
 1. [Prerequisites](#prerequisites)
-2. [Step 1: Creating a GitHub Account](#step-1-creating-a-github-account)
-3. [Step 2: Forking the Repository](#step-2-forking-the-repository)
-4. [Step 3: Creating a GitHub Codespace](#step-3-creating-a-github-codespace)
-5. [Step 4: Running the Setup Script](#step-4-running-the-setup-script)
-6. [Step 5: Configuring Tailscale as an Exit Node](#step-5-configuring-tailscale-as-an-exit-node)
-7. [Conclusion](#conclusion)
+2. [Step 1: Forking the Repository](#step-1-forking-the-repository)
+3. [Step 2: Creating a GitHub Codespace](#step-2-creating-a-github-codespace)
+4. [Step 3: Running the Setup Script](#step-3-running-the-setup-script)
+5. [Step 4: Configuring Tailscale as an Exit Node](#step-4-configuring-tailscale-as-an-exit-node)
+6. [Conclusion](#conclusion)
 
 ## Prerequisites
 
@@ -32,14 +31,15 @@ If you don't have a GitHub account, you'll need to create one:
 
 Once your account is created, you'll have access to all of GitHub's features, including Codespaces.
 
-## Step 2: Forking the Repository
+## Step 1: Forking the Repository
 
 To create a Tailscale VPN in a Codespace, you'll need to fork **this repository**:
 
 1. Go to **[this repository](https://github.com/codeesura/vpn-on-codespaces)** that contains the necessary configuration files.
 2. Click on the **Fork** button at the top-right of the page.
 3. Choose your GitHub account as the destination for the fork.
-## Step 3: Creating a GitHub Codespace
+
+## Step 2: Creating a GitHub Codespace
 
 Now that you have the repository forked, you can create a Codespace:
 
@@ -48,7 +48,7 @@ Now that you have the repository forked, you can create a Codespace:
 3. Click **Create codespace on main**.
 4. Wait for the Codespace environment to initialize. This may take a few minutes.
 
-## Step 4: Running the Setup Script
+## Step 3: Running the Setup Script
 
 Once your Codespace is ready, you'll need to run the provided setup script to configure Tailscale:
 
@@ -67,7 +67,7 @@ Once your Codespace is ready, you'll need to run the provided setup script to co
 
 4. The script will output a link. Follow the link to log in to your Tailscale account and register your machine.
 
-## Step 5: Configuring Tailscale as an Exit Node
+## Step 4: Configuring Tailscale as an Exit Node
 
 After logging in and registering your machine, follow these steps to set your Codespace as an exit node:
 
